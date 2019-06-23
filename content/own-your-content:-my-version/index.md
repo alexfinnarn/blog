@@ -8,7 +8,7 @@ published: false
 
 I forget when I first saw the hashtag #OwnYourContent on Twitter, but I’ll always associate it with the blogging platform, Medium.com. Yes, even this blog post was written on Medium. I thought I would document my process as I went, and I also thought it would be cool, ironic, and way badass to start it on Medium and finish it on my very own personal blog.
 
-Don’t get me wrong, I still tend to like Medium a lot for the writing experience. Coming to a site that just shows you a white canvas on page load was refreshing. No clunky boxes to move around and arrange. No WYSIWYG buttons…like who actually wants to mess with justification when you’re writing. Float the image over here, now get the pixel size right…whoops, now figure out how`&nbsp;&nbsp;&nbsp;&nbsp;<strong>H&nbsp;</strong><a href="#"><span style="color:blue">ello</span></a> World<i>!</i>` happened. 🤷‍♂
+Don’t get me wrong, I still tend to like Medium a lot for the writing experience. Coming to a site that just shows you a white canvas on page load was refreshing. No clunky boxes to move around and arrange. No WYSIWYG buttons…like who actually wants to mess with justification when you’re writing. Float the image over here, now get the pixel size right…whoops, now figure out how`&nbsp;&nbsp;<br>&nbsp;&nbsp;<strong>H&nbsp;</strong><a href="#"><span style="color:blue">ello</span></a> World<i>!</i>` happened. 🤷‍♂
 
 But then there are the bad things, like paywalls, no choice over feature changes or the buttons you get to use…man do I want to center justify this paragraph right now…and the fact that you don’t own what you create. I suppose it helps to start this story back when I did own my blog content.
 
@@ -29,7 +29,7 @@ how it helped me…and can continue to help me by re-publishing to it using the 
 complaints from others
 
 -   Medium is trying to aggregate your content behind a subscription service. Write because you have something to say with personality, not for page views.
--   centralizing the internet is bad in its own right. Back to the olden days of the internet when it had personality. Blink tags. Space Jam website, table with <br>, gifs, space background, and lots of personality: [https://www.spacejam.com](https://www.spacejam.com/)
+-   centralizing the internet is bad in its own right. Back to the olden days of the internet when it had personality. Blink tags. Space Jam website, table with `<br>` tags, gifs, space background, and lots of personality: [https://www.spacejam.com](https://www.spacejam.com/)
 -   No control over stats, layouts, metatags, etc.
 -   removes the “face” of the content. Doesn’t lead to other interactions away from blogging
 
