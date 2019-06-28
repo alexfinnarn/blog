@@ -7,18 +7,18 @@ module.exports = {
   // It should complete the sentence: Written by Alex Finnarn ...
   shortBio: '',
   // a longer bio showing on the landing page of the blog
-  bio: `He’s just a man from no fixed address.`,
+  bio: `He’s just a guy from no fixed address.`,
   author: 'Alex Finnarn',
   githubUrl: 'https://github.com/alexfinnarn/blog',
   // replace this by the url where your website will be published
-  siteUrl: 'https://modest-boyd-54c72c.netlify.com/',
+  siteUrl: 'https://read.finnsweb.io',
   social: {
     // leave the social media you do not want to appear as empty strings
     twitter: 'alexfinnarn',
     medium: '@alexfinnarn',
     facebook: '',
-    github: '',
-    linkedin: '',
+    github: 'alexfinnarn',
+    linkedin: 'alexfinnarn',
     instagram: '',
   },
 }
