@@ -1,9 +1,11 @@
 ---
 title: "Own Your Content: My Version"
 description: "I forget when I first saw the hashtag #OwnYourContent on Twitter, but I’ll always associate it with the blogging platform, Medium.com. Yes…"
-date: "2019-06-23T00:50:30.712Z"
-categories: []
-published: false
+date: "2019-07-01T00:50:30.712Z"
+categories:
+  - JavaScript
+  - Gatsby 
+published: true
 ---
 
 ![#OwnYourContent Twitter Search](./own-content-twitter-search.png)
