@@ -54,7 +54,7 @@ I was also able to judge my word counts, how many people looked at a post, how m
 
 ### The Developers Grab Their Pitchforks
 
-![Forgive me, father...](./frankenstein.png)
+![Forgive me, father...](./frankenstein.jpeg)
 
 I wasn't the one who started chanting for people to #OwnYourContent, but I eventually heard them loud and clear. It seems that most people thought highly of Medium in the beginning when the service was courting users, but at some point, the public's opinion soured for various reasons.
  
@@ -98,7 +98,7 @@ You can also just use your personal access token when prompted…but that assume
 
 The second issue I ran into relates to the screen you see at https://github.com/new. I like to add a readme, .gitignore file, and recently, the Renovate Bot plugin on new repos, but if you do that, then the remote has work that the local repository doesn't. I think cloning down the GitHub repo instead of creating it locally within the node script will [fix the issue, but we'll see about that](https://github.com/mathieudutour/medium-to-own-blog/issues/55).
 
-![Can't have `<br>` tags lying around out there.](./br-issue.png)
+![Can't have line-break tags lying around out there.](./br-issue.png)
 
 [My final issue was an errant `<br>` tag within a bulleted list](https://github.com/mathieudutour/medium-to-own-blog/issues/56). I kind of found it hilarious that the break tag caused all hell to "break" loose, but once I wrapped that in single tick code marks, it seemed to work fine.
 
@@ -106,4 +106,4 @@ Behold, I give you my own Medium thanks to [@MathieuDutour](https://twitter.com/
 
 ### Next Up: Editing and Creating Posts
 
-Nww that I have...
+Now that I have a blog with all of my content from Medium, I need to come up with a plan for an editor that's just as nice. I don't really want to write my articles entirely from an IDE, epsecially for adding media to posts. I'm sure I can find some open source tools that approximate most of what Medium put together for uploading assets and applying limited styling options. Since my blog is now hosted on Netlify, I'll be looking a little bit into their Netlify CMS option.
