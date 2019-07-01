@@ -40,7 +40,7 @@ While Medium's starkness provides for a nice, clutter-free reading experience, y
 
 Contrast that with the YouTube UI where alternative viewing options are presented eye-level in a sidebar the whole time. After two minutes, maybe I think another video might have better content more along the lines of what I'm searching for. However, if those same videos options show up 50 minutes into an hour long video, I'm not very likely to try and see what alternative view they might have to offer. I don't have the time or mental energy to compare anymore.
 
-Sidebar widgets are not only useful because they encourage traffic to stay on your site, but they are also a useful way to dynamically display different links based on different contexts to different types of users. A/B tests, market segmentation, random fun…or no fun if you only blog on Medium. As a writer, Medium's blank canvas is inviting. As a web developer, it pains me a little every time I look at it.
+Sidebar widgets are not only useful because they encourage traffic to stay on your site, but they are also a useful way to dynamically display different links based on different contexts to different types of users. A/B tests, market segmentation, random fun…or no fun if you only blog on Medium. As a writer, Medium's blank canvas is inviting. As a web developer, it pains me a little every time I look at it. You might find sidebar content anoying, and that's okay. I like to experiment with the space, though.
 
 ### My Medium Blog
 
@@ -106,4 +106,4 @@ Behold, I give you my own Medium thanks to [@MathieuDutour](https://twitter.com/
 
 ### Next Up: Editing and Creating Posts
 
-Now that I have a blog with all of my content from Medium, I need to come up with a plan for an editor that's just as nice. I don't really want to write my articles entirely from an IDE, epsecially for adding media to posts. I'm sure I can find some open source tools that approximate most of what Medium put together for uploading assets and applying limited styling options. Since my blog is now hosted on Netlify, I'll be looking a little bit into their Netlify CMS option.
+Now that I have a blog with all of my content from Medium, I need to come up with a plan for an editor that's just as nice. I don't really want to write my articles entirely from an IDE, epsecially for adding media to posts. I'm sure I can find some open source tools that approximate most of what Medium put together for uploading assets and applying limited styling options. Since my blog is now hosted on Netlify, I'll be looking a little bit into [their Netlify CMS option](https://www.netlifycms.org/).
