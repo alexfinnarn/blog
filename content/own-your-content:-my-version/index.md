@@ -40,7 +40,7 @@ While Medium's starkness provides for a nice, clutter-free reading experience, y
 
 Contrast that with the YouTube UI where alternative viewing options are presented eye-level in a sidebar the whole time. After two minutes, maybe I think another video might have better content more along the lines of what I'm searching for. However, if those same videos options show up 50 minutes into an hour long video, I'm not very likely to try and see what alternative view they might have to offer. I don't have the time or mental energy to compare anymore.
 
-Sidebar widgets are not only useful because they encourage traffic to stay on your site, but they are also a useful way to dynamically display different links based on different contexts to different types of users. A/B tests, market segmentation, random fun…or no fun if you only blog on Medium. As a writer, Medium's blank canvas is inviting. As a web developer, it pains me a little every time I look at it. You might find sidebar content anoying, and that's okay. I like to experiment with the space, though.
+ You might find sidebar content anoying, and that's okay. I like to experiment with the space, though. Sidebar widgets are not only useful because they encourage traffic to stay on your site, but they are also a useful way to dynamically display different links based on different contexts to different types of users. A/B tests, market segmentation, random fun…or no fun if you only blog on Medium. As a writer, Medium's blank canvas is inviting. As a web developer, it pains me a little every time I look at it.
 
 ### My Medium Blog
 
