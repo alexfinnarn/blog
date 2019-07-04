@@ -1,5 +1,5 @@
 ---
-title: "#OwnYourContent: Domains"
+title: "#OwnYourContent: Managing DNS"
 description: "In my last post in the #OwnYourContent series, I detailed my digital publishing history as well as showing you how to quickly move your blog off of Medium and onto GitHub + Netlify. That was a good start, but in setting up my blog, I also had to take DNS considerations into account. What are all the steps and thoughts you'll want to go through as you point people to your new and shiny blog? And how do you accomplish this within Netlify? We'll cover these topics during the remainder of this post."
 date: "2019-07-04T20:21:38.504Z"
 categories: 
@@ -11,6 +11,8 @@ published: true
 # redirect_from:
 #  - /building-slack-bots-february-2019-edition-of-the-columbus-javascript-usergroup-6210772e07b6
 ---
+
+![Netlify DNS Dashboard](./netlify-dns-dashboard.png)
 
 In [my last post in the #OwnYourContent series](https://read.finnsweb.io/own-your-content:-my-version/), I detailed my digital publishing history as well as showing you how to quickly move your blog off of Medium and onto GitHub + Netlify. That was a good start, but in setting up my blog, I also had to take DNS considerations into account. I really wanted to publish my first #OwnYourContent post on my own site rather than Medium.com; however, `relaxed-jones-345-dufus.netlify.com` is what Netlify gave me to hand out to the public. Okay, okay, they didn't put "dufus" into my URL, but that's how I felt when I went to post a link to my site on Twitter.
 
