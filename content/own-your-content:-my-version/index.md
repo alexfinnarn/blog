@@ -4,7 +4,8 @@ description: "I forget when I first saw the hashtag #OwnYourContent on Twitter, 
 date: "2019-07-01T00:50:30.712Z"
 categories:
   - JavaScript
-  - Gatsby 
+  - Gatsby
+  - Netlify
 published: true
 ---
 
