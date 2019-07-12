@@ -1,3 +1,11 @@
 [build]
 	publish = "public"
 	command = "gatsby build"
+[[redirects]]
+  from = "https://finnsweb.io/*"
+  to = "https://read.finnsweb.io/:splat"
+  status = 301
+  force = true
+  # query = {path = ":path"} # COMMENT: apply this rule for /old-path?path=example
+  # conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+	# headers = {X-From = "Netlify"} 
