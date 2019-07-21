@@ -80,3 +80,6 @@ Lando's concept of "recipes" still includes a way to tightly integrate to Panthe
 ### Installing and Using Lando
 
 I'm on a MacBook Pro over here, so I went to the downloads page, picked the most recent release (`v3.0.0-rc.17`), and installed it the same way I would any other MacOS program.
+
+
+Some doc I made - https://docs.google.com/document/d/1KcAFDCQzPDrbIhJjq3tESvdMexzcRCZUmfdQIWHCS-M/edit

@@ -23,7 +23,27 @@ Finally, I want to have some sort of analytics data I can use to help drive the 
 
 The first order of business is making sure that we're getting all users to the right URLs that we want to boost on organic search platforms like Google. Going back to my previous example, if we split traffic three ways between `finnsweb.io/article-1`, `www.finnsweb.io/article-1`, and `read.finnsweb.io/article-1`, then the URL I want people to share, `read.finnsweb.io/article-1`, might only get a third of the traffic. Coupled with penalties for dulpicate content, that reality would be really bad SEO.
 
-The Netlify documentation regarding redirects points to two places where you can place redirect rules: a `_redirects` file and in `netlify.toml`.
+[The Netlify documentation regarding redirects](https://www.netlify.com/docs/redirects/) points to two places where you can place redirect rules: a `_redirects` file and in `netlify.toml`. So, which file should you put your redirect rules in, you ask? Well, it all depends.
+
+I started by placing them in `netlify.toml`, because my version of that file was very slim and I didn't want to create another file until there was a good reason for me to do so.
+
+```yaml
+[[redirects]]
+  from = "https://finnsweb.io/*"
+  to = "https://read.finnsweb.io/:splat"
+  status = 301
+  force = true
+  # query = {path = ":path"} # COMMENT: apply this rule for /old-path?path=example
+  # conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+  # headers = {X-From = "Netlify"}
+  # signed = "API_SIGNATURE_TOKEN"
+```
+
+As you can see, creating the redirect rule takes a few key-value pairs including where you want the user redirected and the status code of the HTTP response amongst other options you can play around with. I only used the basics here, but the GeoIP and role-based redirect options seemed pretty interesting. You can [check those out in the Netlify documentation](https://www.netlify.com/docs/redirects/#geoip-and-language-based-redirects), if that tickles your fancy.
+
+My redirect rules living inside `netlify.toml` was short lived, however, as I simply needed to add the same rule a few times for the different domain aliases I created. The important Netlify-specific thing to look at here is the `:splat` variable. If you've ever made any redirect rules via Apache, which is where I've always placed redirects at the web server level, you can think of `:splat === $1`.  
+
+...mention the pretty URL thing and how that plays into the CDN
 
 ...React Helmet and metatags: https://github.com/nfl/react-helmet Make sure to add a share image for Twitter and OG.
 
