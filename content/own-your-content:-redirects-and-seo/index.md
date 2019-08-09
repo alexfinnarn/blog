@@ -41,14 +41,20 @@ I started by placing them in `netlify.toml`, because my version of that file was
 
 As you can see, creating the redirect rule takes a few key-value pairs including where you want the user redirected and the status code of the HTTP response amongst other options you can play around with. I only used the basics here, but the GeoIP and role-based redirect options seemed pretty interesting. You can [check those out in the Netlify documentation](https://www.netlify.com/docs/redirects/#geoip-and-language-based-redirects), if that tickles your fancy.
 
-My redirect rules living inside `netlify.toml` was short lived, however, as I simply needed to add the same rule a few times for the different domain aliases I created. The important Netlify-specific thing to look at here is the `:splat` variable. If you've ever made any redirect rules via Apache, which is where I've always placed redirects at the web server level, you can think of `:splat === $1`.  
+My redirect rules living inside `netlify.toml` was short lived, however, as I simply needed to add the same rule a few times for the different domain aliases I created. The important Netlify-specific thing to look at here is the `:splat` variable. If you've ever made any redirect rules via Apache, which is where I've always placed redirects at the web server level, you can think of `:splat === $1`.
+
+### \_redirects File
+
+I prefer the simplicity of looking at a one-liner for my rediects rather than four lines each time so I opted to create the `_redirects` file mentioned in Netlify's docs. I wanted to see if I could redirect all of my traffic from `https://*.finnsweb.io` to the specific subdomain that hosts this blog at `https://read.finnsweb.io`, if that was possible.
+
+```
+https://:sub.finnsweb.io/* https://read.finnsweb.io/:splat 301!
+```
+
+To test out my idea based on what I could glean from the docs, I wrote that line above into a `_redirects` file and built the site. To my dismay, things didn't work
 
 ...mention the pretty URL thing and how that plays into the CDN
-
-...React Helmet and metatags: https://github.com/nfl/react-helmet Make sure to add a share image for Twitter and OG.
 
 ...make a better 404 page with a list of recent content...or just redirect to the homepage with a message popup.
 
 ...gatsby-plugin-feed what is it? Some kind of RSS thing?
-
-...add browserlist thing that connects to GA to compile for 99% of browsers
