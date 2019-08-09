@@ -6,6 +6,8 @@
   to = "https://read.finnsweb.io/:splat"
   status = 301
   force = true
-  # query = {path = ":path"} # COMMENT: apply this rule for /old-path?path=example
-  # conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
-	# headers = {X-From = "Netlify"} 
+[[redirects]]
+  from = "https://foo.finnsweb.io/*"
+  to = "https://read.finnsweb.io/:splat"
+  status = 301
+  force = true
