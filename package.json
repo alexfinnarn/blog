@@ -30,7 +30,7 @@
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --help"
+    "lint": "eslint ."
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
