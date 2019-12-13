@@ -9,10 +9,10 @@ const Header = ({ siteTitle }) => (
      flexDirection: 'row', 
      justifyContent: 'space-between',
      margin: '0 auto',
-     maxWidth: 960,
+     maxWidth: 1020,
      padding: '0.75 rem'
     }}>
-     <h1 style={{flex: 2, marginBottom: '0.25 rem' }}><Link to="/">{ siteTitle }</Link></h1>
+     <h1 style={{flex: 3, marginBottom: '0.25 rem' }}><Link to="/">{ siteTitle }</Link></h1>
      <div style={{ flex: 1, display: 'flex', flexDirection: 'row', alignSelf: 'flex-end', alignContent: 'baseline'}}>
      <h2 style={{ flex: 1}}>Bar</h2>
      <h2 style={{ flex: 1}}>Bar</h2>
